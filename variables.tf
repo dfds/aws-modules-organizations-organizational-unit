@@ -6,15 +6,15 @@ variable "additional_tags" {
 
 variable "ou_name" {
   type        = string
-  description = "Name of the S3 bucket"
+  description = "Name of the organizations organisational unit"
 }
 
 variable "department" {
   type        = string
-  description = "Name of the S3 bucket"
+  description = "Name of the department owning this OU"
 }
 
 variable "environment" {
   type        = string
-  description = "Name of the S3 bucket"
+  description = "Name of the environment"
 }
