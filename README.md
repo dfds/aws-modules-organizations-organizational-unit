@@ -1,5 +1,5 @@
 # aws-modules-template
-Template for aws modules
+Module for creating OU in the master organisation 
 
 # Documentation
 <!-- BEGIN_TF_DOCS -->
