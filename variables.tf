@@ -9,6 +9,11 @@ variable "ou_name" {
   description = "Name of the organizations organisational unit"
 }
 
+variable "ou_parent_id" {
+  type        = int
+  description = "The ID of the organization this ou will be a child to"
+}
+
 variable "department" {
   type        = string
   description = "Name of the department owning this OU"
