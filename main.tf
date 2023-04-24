@@ -1,5 +1,6 @@
 resource "aws_organizations_organizational_unit" "this" {
   name = var.ou_name
+  parent_id = var.ou_parent_id
   
   lifecycle {
     prevent_destroy = true

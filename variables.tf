@@ -10,8 +10,8 @@ variable "ou_name" {
 }
 
 variable "ou_parent_id" {
-  type        = int
-  description = "The ID of the organization this ou will be a child to"
+  type        = string
+  description = "The ID of the organization this OU will be attached too"
 }
 
 variable "department" {
