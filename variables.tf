@@ -1,3 +1,7 @@
+variable "aws_region" {
+  type = string
+}
+
 variable "additional_tags" {
   type        = object({})
   description = "Additional tags for the organizations organisational unit"
