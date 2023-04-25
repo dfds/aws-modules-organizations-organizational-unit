@@ -25,6 +25,7 @@ No modules.
 | Name | Type |
 |------|------|
 | [aws_organizations_organizational_unit.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/organizations_organizational_unit) | resource |
+| [aws_organizations_organization.org](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/organizations_organization) | data source |
 
 ## Inputs
 
@@ -34,7 +35,6 @@ No modules.
 | <a name="input_department"></a> [department](#input\_department) | Name of the department owning this OU | `string` | n/a | yes |
 | <a name="input_environment"></a> [environment](#input\_environment) | Name of the environment | `string` | n/a | yes |
 | <a name="input_ou_name"></a> [ou\_name](#input\_ou\_name) | Name of the organizations organisational unit | `string` | n/a | yes |
-| <a name="input_ou_parent_id"></a> [ou\_parent\_id](#input\_ou\_parent\_id) | The ID of the organization this OU will be attached too | `string` | n/a | yes |
 
 ## Outputs
 
